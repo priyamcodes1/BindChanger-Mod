@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bindchanger",
+  "version": "${version}",
+  "name": "BindChanger",
+  "description": "A client-side mod to quickly toggle keybinds for hotbar slots.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bindchanger.BindChangerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
